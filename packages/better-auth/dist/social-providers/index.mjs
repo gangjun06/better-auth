@@ -498,7 +498,7 @@ const kakao = (options) => {
           ),
           {
             algorithms: ["RS256"],
-            audience: options.clientId,
+            audience: options.native_client_id || options.clientId,
             issuer: "https://kauth.kakao.com"
           }
         );

@@ -55,6 +55,7 @@ export type KakaoProfile = KakaoDefaultProfile | KakaoOIDCProfile;
 export interface KakaoOptions extends ProviderOptions<KakaoProfile> {
 	prompt?: "login" | "none" | "consent";
 	service_terms?: string;
+	native_client_id?: string;
 }
 
 export const kakao = (options: KakaoOptions) => {
@@ -118,11 +119,10 @@ export const kakao = (options: KakaoOptions) => {
 					),
 					{
 						algorithms: ["RS256"],
-						audience: options.clientId,
+						audience: options.native_client_id || options.clientId,
 						issuer: "https://kauth.kakao.com",
 					},
 				);
-
 				if (nonce && jwtClaims.nonce !== nonce) {
 					return false;
 				}
@@ -166,14 +166,11 @@ export const kakao = (options: KakaoOptions) => {
 					},
 				},
 			);
-
 			if (!response) {
 				return null;
 			}
 			const data = { ...response, type: "default" } as KakaoDefaultProfile;
-
 			const userMap = await options.mapProfileToUser?.(data);
-
 			return {
 				user: {
 					id: String(data.id),

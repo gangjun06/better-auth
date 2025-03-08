@@ -1,9 +1,9 @@
 import * as better_call from 'better-call';
-import { U as User, S as Session, I as InferOptionSchema, H as HookEndpointContext, G as GenericEndpointContext } from '../../shared/better-auth.B2ufZcGq.js';
+import { U as User, S as Session, I as InferOptionSchema, H as HookEndpointContext, G as GenericEndpointContext } from '../../shared/better-auth.B1TNB3i9.js';
 import '../../shared/better-auth.Bi8FQwDD.js';
 import 'zod';
 import 'kysely';
-import '../../shared/better-auth.CAcVTGfw.js';
+import '../../shared/better-auth.elCBLSn-.js';
 import 'jose';
 import 'better-sqlite3';
 

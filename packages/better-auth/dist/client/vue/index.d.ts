@@ -4,11 +4,11 @@ import { BetterFetchError } from '@better-fetch/fetch';
 import { DeepReadonly, Ref } from 'vue';
 import { ClientOptions, BetterAuthClientPlugin, IsSignal, InferClientAPI, InferActions, InferErrorCodes } from '../../types/index.js';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../../shared/better-auth.Bi8FQwDD.js';
-import { h as BASE_ERROR_CODES } from '../../shared/better-auth.B2ufZcGq.js';
+import { h as BASE_ERROR_CODES } from '../../shared/better-auth.B1TNB3i9.js';
 import 'better-call';
 import 'zod';
 import 'kysely';
-import '../../shared/better-auth.CAcVTGfw.js';
+import '../../shared/better-auth.elCBLSn-.js';
 import 'jose';
 import 'better-sqlite3';
 

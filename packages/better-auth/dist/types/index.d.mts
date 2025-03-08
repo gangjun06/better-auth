@@ -1,12 +1,12 @@
-import { B as BetterAuthPlugin, a3 as InferFieldsInputClient, a1 as InferFieldsOutput, U as User, S as Session, i as Auth } from '../shared/better-auth.CkIbScAE.mjs';
-export { u as Account, g as Adapter, x as AdapterInstance, w as AdapterSchemaCreation, r as AdditionalSessionFieldsInput, s as AdditionalSessionFieldsOutput, p as AdditionalUserFieldsInput, q as AdditionalUserFieldsOutput, l as AuthContext, A as AuthPluginSchema, f as BetterAuthOptions, z as FilterActions, F as FilteredAPI, G as GenericEndpointContext, H as HookEndpointContext, D as InferAPI, I as InferOptionSchema, a as InferPluginErrorCodes, t as InferPluginTypes, k as InferSession, C as InferSessionAPI, j as InferUser, M as Models, R as RateLimit, y as SecondaryStorage, V as Verification, W as Where, v as init } from '../shared/better-auth.CkIbScAE.mjs';
+import { B as BetterAuthPlugin, a3 as InferFieldsInputClient, a1 as InferFieldsOutput, U as User, S as Session, i as Auth } from '../shared/better-auth.DisdHfy3.mjs';
+export { u as Account, g as Adapter, x as AdapterInstance, w as AdapterSchemaCreation, r as AdditionalSessionFieldsInput, s as AdditionalSessionFieldsOutput, p as AdditionalUserFieldsInput, q as AdditionalUserFieldsOutput, l as AuthContext, A as AuthPluginSchema, f as BetterAuthOptions, z as FilterActions, F as FilteredAPI, G as GenericEndpointContext, H as HookEndpointContext, D as InferAPI, I as InferOptionSchema, a as InferPluginErrorCodes, t as InferPluginTypes, k as InferSession, C as InferSessionAPI, j as InferUser, M as Models, R as RateLimit, y as SecondaryStorage, V as Verification, W as Where, v as init } from '../shared/better-auth.DisdHfy3.mjs';
 import { BetterFetchOption, BetterFetchResponse, BetterFetch, BetterFetchPlugin } from '@better-fetch/fetch';
 import { WritableAtom, Atom } from 'nanostores';
 import { U as UnionToIntersection, H as HasRequiredKeys, b as Prettify, L as LiteralString, S as StripEmptyObjects } from '../shared/better-auth.Bi8FQwDD.mjs';
 import { Endpoint, InputContext } from 'better-call';
 import 'zod';
 import 'kysely';
-import '../shared/better-auth.Qf-z0yCp.mjs';
+import '../shared/better-auth.BxaQRd7S.mjs';
 import 'jose';
 import 'better-sqlite3';
 

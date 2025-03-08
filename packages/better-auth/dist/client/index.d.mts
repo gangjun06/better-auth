@@ -1,4 +1,4 @@
-import { h as BASE_ERROR_CODES, B as BetterAuthPlugin } from '../shared/better-auth.CkIbScAE.mjs';
+import { h as BASE_ERROR_CODES, B as BetterAuthPlugin } from '../shared/better-auth.DisdHfy3.mjs';
 export * from 'zod';
 import * as _better_fetch_fetch from '@better-fetch/fetch';
 import { BetterFetchError, BetterFetch, BetterFetchOption } from '@better-fetch/fetch';
@@ -10,7 +10,7 @@ import { Atom, PreinitializedWritableAtom } from 'nanostores';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../shared/better-auth.Bi8FQwDD.mjs';
 import 'kysely';
 import 'better-call';
-import '../shared/better-auth.Qf-z0yCp.mjs';
+import '../shared/better-auth.BxaQRd7S.mjs';
 import 'jose';
 import 'better-sqlite3';
 

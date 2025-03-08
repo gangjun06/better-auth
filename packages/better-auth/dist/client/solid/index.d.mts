@@ -3,12 +3,12 @@ import { BetterFetchError } from '@better-fetch/fetch';
 import { ClientOptions, BetterAuthClientPlugin, IsSignal, InferClientAPI, InferActions, InferErrorCodes } from '../../types/index.mjs';
 import { Accessor } from 'solid-js';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../../shared/better-auth.Bi8FQwDD.mjs';
-import { h as BASE_ERROR_CODES } from '../../shared/better-auth.CkIbScAE.mjs';
+import { h as BASE_ERROR_CODES } from '../../shared/better-auth.DisdHfy3.mjs';
 import 'nanostores';
 import 'better-call';
 import 'zod';
 import 'kysely';
-import '../../shared/better-auth.Qf-z0yCp.mjs';
+import '../../shared/better-auth.BxaQRd7S.mjs';
 import 'jose';
 import 'better-sqlite3';
 

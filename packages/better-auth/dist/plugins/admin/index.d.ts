@@ -1,10 +1,10 @@
 import { AccessControl, Role, Statements } from '../access/index.js';
 import * as better_call from 'better-call';
 import { z } from 'zod';
-import { I as InferOptionSchema, l as AuthContext, H as HookEndpointContext, S as Session, U as User } from '../../shared/better-auth.B2ufZcGq.js';
+import { I as InferOptionSchema, l as AuthContext, H as HookEndpointContext, S as Session, U as User } from '../../shared/better-auth.B1TNB3i9.js';
 import '../../shared/better-auth.Bi8FQwDD.js';
 import 'kysely';
-import '../../shared/better-auth.CAcVTGfw.js';
+import '../../shared/better-auth.elCBLSn-.js';
 import 'jose';
 import 'better-sqlite3';
 

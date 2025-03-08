@@ -4,11 +4,11 @@ import * as _better_fetch_fetch from '@better-fetch/fetch';
 import { BetterFetchError } from '@better-fetch/fetch';
 import { ClientOptions, BetterAuthClientPlugin, IsSignal, InferClientAPI, InferActions, InferErrorCodes } from '../../types/index.cjs';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../../shared/better-auth.Bi8FQwDD.cjs';
-import { h as BASE_ERROR_CODES } from '../../shared/better-auth.Bs9qn-uA.cjs';
+import { h as BASE_ERROR_CODES } from '../../shared/better-auth.p6p7jTP0.cjs';
 import 'better-call';
 import 'zod';
 import 'kysely';
-import '../../shared/better-auth.Kb3qC2Bx.cjs';
+import '../../shared/better-auth.DwXmtNRS.cjs';
 import 'jose';
 import 'better-sqlite3';
 
