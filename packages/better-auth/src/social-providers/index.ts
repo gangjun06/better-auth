@@ -4,6 +4,7 @@ import { discord } from "./discord";
 import { facebook } from "./facebook";
 import { github } from "./github";
 import { google } from "./google";
+import { kakao } from "./kakao";
 import { microsoft } from "./microsoft-entra-id";
 import { spotify } from "./spotify";
 import { twitch } from "./twitch";
@@ -23,6 +24,7 @@ export const socialProviders = {
 	github,
 	microsoft,
 	google,
+	kakao,
 	spotify,
 	twitch,
 	twitter,
@@ -70,5 +72,6 @@ export * from "./tiktok";
 export * from "./reddit";
 export * from "./roblox";
 export * from "./vk";
+export * from "./kakao";
 
 export type SocialProviderList = typeof socialProviderList;
