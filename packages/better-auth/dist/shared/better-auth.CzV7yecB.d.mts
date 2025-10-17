@@ -1,10 +1,10 @@
 import { BetterAuthClientOptions, ClientStore, ClientAtomListener, BetterAuthClientPlugin, BetterAuthPlugin } from '@better-auth/core';
-import { U as UnionToIntersection, H as HasRequiredKeys, a as Prettify, S as StripEmptyObjects } from './better-auth.DNnBkMGu.cjs';
-import { A as Auth } from './better-auth.CB5dp2Dg.cjs';
+import { U as UnionToIntersection, H as HasRequiredKeys, a as Prettify, S as StripEmptyObjects } from './better-auth.DNnBkMGu.mjs';
+import { A as Auth } from './better-auth.BRoJYWAZ.mjs';
 import { BetterFetchOption, BetterFetchResponse } from '@better-fetch/fetch';
 import { Endpoint, InputContext, StandardSchemaV1 } from 'better-call';
 import { User, Session } from '@better-auth/core/db';
-import { I as InferFieldsInputClient, a as InferFieldsOutput } from './better-auth.kD29xbrE.cjs';
+import { I as InferFieldsInputClient, a as InferFieldsOutput } from './better-auth.kD29xbrE.mjs';
 
 type CamelCase<S extends string> = S extends `${infer P1}-${infer P2}${infer P3}` ? `${Lowercase<P1>}${Uppercase<P2>}${CamelCase<P3>}` : Lowercase<S>;
 type PathToObject<T extends string, Fn extends (...args: any[]) => any> = T extends `/${infer Segment}/${infer Rest}` ? {

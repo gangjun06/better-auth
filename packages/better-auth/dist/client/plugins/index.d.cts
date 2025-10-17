@@ -4,7 +4,7 @@ import * as _better_auth_core from '@better-auth/core';
 import { BetterAuthOptions, ClientStore, BetterAuthPlugin } from '@better-auth/core';
 import { DBFieldAttribute, User } from '@better-auth/core/db';
 import { a as Prettify } from '../../shared/better-auth.DNnBkMGu.cjs';
-import { S as SessionQueryParams } from '../../shared/better-auth.Cig2oCy1.cjs';
+import { S as SessionQueryParams } from '../../shared/better-auth.Dwwn6bsb.cjs';
 import * as nanostores from 'nanostores';
 import { atom } from 'nanostores';
 import * as _better_fetch_fetch from '@better-fetch/fetch';
@@ -36,7 +36,7 @@ import 'better-call';
 import 'packages/core/dist/db';
 import 'packages/core/dist';
 import '../../plugins/organization/access/index.cjs';
-import '../../shared/better-auth.CB5dp2Dg.cjs';
+import '../../shared/better-auth.DN_FepQQ.cjs';
 import 'packages/core/dist/oauth2';
 import '@better-auth/core/env';
 import '../../shared/better-auth.CtDEK5dv.cjs';
@@ -591,7 +591,7 @@ declare const passkeyClient: () => {
         "/passkey/authenticate": "POST";
     };
     atomListeners: ({
-        matcher(path: string): path is "/sign-out" | "/passkey/verify-registration" | "/passkey/delete-passkey" | "/passkey/update-passkey";
+        matcher(path: string): path is "/passkey/verify-registration" | "/passkey/delete-passkey" | "/passkey/update-passkey" | "/sign-out";
         signal: "$listPasskeys";
     } | {
         matcher: (path: string) => path is "/passkey/verify-authentication";

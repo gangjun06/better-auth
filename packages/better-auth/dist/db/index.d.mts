@@ -21,15 +21,15 @@ declare function getWithHooks(adapter: DBAdapter<BetterAuthOptions>, ctx: {
     options: BetterAuthOptions;
     hooks: Exclude<BetterAuthOptions["databaseHooks"], undefined>[];
 }): {
-    createWithHooks: <T extends Record<string, any>>(data: T, model: "account" | "user" | "session" | "verification", customCreateFn?: {
+    createWithHooks: <T extends Record<string, any>>(data: T, model: "user" | "account" | "session" | "verification", customCreateFn?: {
         fn: (data: Record<string, any>) => void | Promise<any>;
         executeMainFn?: boolean;
     }, context?: GenericEndpointContext, trxAdapter?: TransactionAdapter) => Promise<any>;
-    updateWithHooks: <T extends Record<string, any>>(data: any, where: Where[], model: "account" | "user" | "session" | "verification", customUpdateFn?: {
+    updateWithHooks: <T extends Record<string, any>>(data: any, where: Where[], model: "user" | "account" | "session" | "verification", customUpdateFn?: {
         fn: (data: Record<string, any>) => void | Promise<any>;
         executeMainFn?: boolean;
     }, context?: GenericEndpointContext, trxAdapter?: TransactionAdapter) => Promise<any>;
-    updateManyWithHooks: <T extends Record<string, any>>(data: any, where: Where[], model: "account" | "user" | "session" | "verification", customUpdateFn?: {
+    updateManyWithHooks: <T extends Record<string, any>>(data: any, where: Where[], model: "user" | "account" | "session" | "verification", customUpdateFn?: {
         fn: (data: Record<string, any>) => void | Promise<any>;
         executeMainFn?: boolean;
     }, context?: GenericEndpointContext, trxAdapter?: TransactionAdapter) => Promise<any>;

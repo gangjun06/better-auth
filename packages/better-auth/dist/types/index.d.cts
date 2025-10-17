@@ -1,10 +1,10 @@
 import { BetterAuthOptions, AuthContext } from '@better-auth/core';
 export { BetterAuthAdvancedOptions, BetterAuthClientOptions, BetterAuthClientPlugin, BetterAuthCookies, BetterAuthOptions, BetterAuthPlugin, BetterAuthRateLimitOptions, ClientAtomListener, ClientStore } from '@better-auth/core';
-export { f as AdditionalSessionFieldsInput, g as AdditionalSessionFieldsOutput, d as AdditionalUserFieldsInput, e as AdditionalUserFieldsOutput, i as FilterActions, F as FilteredAPI, b as InferAPI, h as InferPluginTypes, a as InferSession, j as InferSessionAPI, I as InferUser, M as Models } from '../shared/better-auth.CB5dp2Dg.cjs';
+export { f as AdditionalSessionFieldsInput, g as AdditionalSessionFieldsOutput, d as AdditionalUserFieldsInput, e as AdditionalUserFieldsOutput, i as FilterActions, F as FilteredAPI, b as InferAPI, h as InferPluginTypes, a as InferSession, j as InferSessionAPI, I as InferUser, M as Models } from '../shared/better-auth.DN_FepQQ.cjs';
 export { I as InferOptionSchema, a as InferPluginErrorCodes } from '../shared/better-auth.CtDEK5dv.cjs';
 import { EndpointContext, InputContext } from 'better-call';
 export { A as Adapter, b as AdapterInstance, a as AdapterSchemaCreation, T as TransactionAdapter } from '../shared/better-auth.Bn2XUCG7.cjs';
-export { A as AtomListener, C as ClientOptions, b as InferActions, i as InferAdditionalFromClient, a as InferClientAPI, c as InferErrorCodes, f as InferPluginsFromClient, g as InferSessionFromClient, h as InferUserFromClient, I as IsSignal, S as SessionQueryParams, e as Store } from '../shared/better-auth.Cig2oCy1.cjs';
+export { A as AtomListener, C as ClientOptions, b as InferActions, i as InferAdditionalFromClient, a as InferClientAPI, c as InferErrorCodes, f as InferPluginsFromClient, g as InferSessionFromClient, h as InferUserFromClient, I as IsSignal, S as SessionQueryParams, e as Store } from '../shared/better-auth.Dwwn6bsb.cjs';
 export { Account, RateLimit, Session, User, Verification } from '@better-auth/core/db';
 export { Where } from '@better-auth/core/db/adapter';
 import 'packages/core/dist/oauth2';

@@ -1,7 +1,7 @@
 import * as nanostores from 'nanostores';
 import * as _better_fetch_fetch from '@better-fetch/fetch';
 import { SuccessContext } from '@better-fetch/fetch';
-import { I as IsSignal, d as InferRoute, c as InferErrorCodes } from '../shared/better-auth.CfiWBjV1.mjs';
+import { I as IsSignal, d as InferRoute, c as InferErrorCodes } from '../shared/better-auth.CzV7yecB.mjs';
 import * as packages_core_dist_oauth2 from 'packages/core/dist/oauth2';
 import * as zod_v4_core from 'zod/v4/core';
 import * as z from 'zod';
@@ -9,7 +9,7 @@ import * as better_call from 'better-call';
 import { U as UnionToIntersection, a as Prettify } from '../shared/better-auth.DNnBkMGu.mjs';
 import * as _better_auth_core from '@better-auth/core';
 import { BetterAuthOptions, BetterAuthClientOptions } from '@better-auth/core';
-import { A as Auth, b as InferAPI } from '../shared/better-auth.BE-iB4_Z.mjs';
+import { A as Auth, b as InferAPI } from '../shared/better-auth.BRoJYWAZ.mjs';
 import { User, Session } from '@better-auth/core/db';
 import * as packages_core_dist_shared_core_BJPBStdk from 'packages/core/dist/shared/core.BJPBStdk';
 import { s as setCookieToHeader } from '../shared/better-auth.BgW7o7g9.mjs';

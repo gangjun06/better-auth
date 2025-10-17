@@ -1,13 +1,13 @@
 import * as _better_fetch_fetch from '@better-fetch/fetch';
 import { BetterFetchError } from '@better-fetch/fetch';
 export * from '@better-fetch/fetch';
-import { I as IsSignal, a as InferClientAPI, b as InferActions, c as InferErrorCodes } from '../../shared/better-auth.nM2dzSLQ.js';
+import { I as IsSignal, a as InferClientAPI, b as InferActions, c as InferErrorCodes } from '../../shared/better-auth.k3jG1Zm-.js';
 import { BetterAuthClientOptions, BetterAuthClientPlugin } from '@better-auth/core';
 import { Accessor } from 'solid-js';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../../shared/better-auth.DNnBkMGu.js';
 import { BASE_ERROR_CODES } from '@better-auth/core/error';
 export * from 'nanostores';
-import '../../shared/better-auth.BfcqyAzv.js';
+import '../../shared/better-auth.LPX6nRcg.js';
 import 'packages/core/dist/oauth2';
 import 'better-call';
 import '@better-auth/core/env';

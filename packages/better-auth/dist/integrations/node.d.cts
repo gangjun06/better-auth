@@ -1,6 +1,6 @@
 import * as http from 'http';
 import { IncomingHttpHeaders } from 'http';
-import { A as Auth } from '../shared/better-auth.CB5dp2Dg.cjs';
+import { A as Auth } from '../shared/better-auth.DN_FepQQ.cjs';
 import 'packages/core/dist/oauth2';
 import 'better-call';
 import '@better-auth/core';

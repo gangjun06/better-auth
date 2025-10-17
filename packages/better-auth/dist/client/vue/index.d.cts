@@ -4,11 +4,11 @@ import * as _better_fetch_fetch from '@better-fetch/fetch';
 import { BetterFetchError } from '@better-fetch/fetch';
 export * from '@better-fetch/fetch';
 import { DeepReadonly, Ref } from 'vue';
-import { I as IsSignal, a as InferClientAPI, b as InferActions, c as InferErrorCodes } from '../../shared/better-auth.Cig2oCy1.cjs';
+import { I as IsSignal, a as InferClientAPI, b as InferActions, c as InferErrorCodes } from '../../shared/better-auth.Dwwn6bsb.cjs';
 import { BetterAuthClientOptions, BetterAuthClientPlugin } from '@better-auth/core';
 import { U as UnionToIntersection, P as PrettifyDeep } from '../../shared/better-auth.DNnBkMGu.cjs';
 import { BASE_ERROR_CODES } from '@better-auth/core/error';
-import '../../shared/better-auth.CB5dp2Dg.cjs';
+import '../../shared/better-auth.DN_FepQQ.cjs';
 import 'packages/core/dist/oauth2';
 import 'better-call';
 import '@better-auth/core/env';
@@ -29,15 +29,15 @@ declare function createAuthClient<Option extends BetterAuthClientOptions>(option
             data: InferClientAPI<Option> extends {
                 getSession: () => Promise<infer Res>;
             } ? Res extends {
-                data: infer S;
-                error: null;
-            } | {
                 data: null;
                 error: {
                     message?: string | undefined;
                     status: number;
                     statusText: string;
                 };
+            } | {
+                data: infer S;
+                error: null;
             } ? S : Res extends Record<string, any> ? Res : never : never;
             isPending: boolean;
             isRefetching: boolean;
@@ -47,15 +47,15 @@ declare function createAuthClient<Option extends BetterAuthClientOptions>(option
             data: Ref<InferClientAPI<Option> extends {
                 getSession: () => Promise<infer Res>;
             } ? Res extends {
-                data: infer S;
-                error: null;
-            } | {
                 data: null;
                 error: {
                     message?: string | undefined;
                     status: number;
                     statusText: string;
                 };
+            } | {
+                data: infer S;
+                error: null;
             } ? S : Res extends Record<string, any> ? Res : never : never>;
             isPending: false;
             error: Ref<{
@@ -69,15 +69,15 @@ declare function createAuthClient<Option extends BetterAuthClientOptions>(option
         Session: NonNullable<InferClientAPI<Option> extends {
             getSession: () => Promise<infer Res>;
         } ? Res extends {
-            data: infer S;
-            error: null;
-        } | {
             data: null;
             error: {
                 message?: string | undefined;
                 status: number;
                 statusText: string;
             };
+        } | {
+            data: infer S;
+            error: null;
         } ? S : Res extends Record<string, any> ? Res : never : never>;
     };
     $fetch: _better_fetch_fetch.BetterFetch<{

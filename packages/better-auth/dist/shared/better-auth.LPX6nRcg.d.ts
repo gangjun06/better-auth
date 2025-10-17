@@ -3,9 +3,9 @@ import * as better_call from 'better-call';
 import { Endpoint, Middleware } from 'better-call';
 import { BetterAuthOptions, BetterAuthPlugin, GenericEndpointContext, AuthContext } from '@better-auth/core';
 import { InternalLogger } from '@better-auth/core/env';
-import { f as InferFieldsFromPlugins, g as InferFieldsFromOptions } from './better-auth.kD29xbrE.mjs';
-import { a as InferPluginErrorCodes } from './better-auth.5wJlMsTX.mjs';
-import { U as UnionToIntersection, S as StripEmptyObjects, P as PrettifyDeep, a as Prettify, E as Expand } from './better-auth.DNnBkMGu.mjs';
+import { f as InferFieldsFromPlugins, g as InferFieldsFromOptions } from './better-auth.kD29xbrE.js';
+import { a as InferPluginErrorCodes } from './better-auth.DyhDNJOb.js';
+import { U as UnionToIntersection, S as StripEmptyObjects, P as PrettifyDeep, a as Prettify, E as Expand } from './better-auth.DNnBkMGu.js';
 import { BASE_ERROR_CODES } from '@better-auth/core/error';
 import { Session, User } from '@better-auth/core/db';
 import * as z from 'zod';
@@ -358,7 +358,7 @@ declare const callbackOAuth: {
             user?: string | undefined;
         } | undefined;
     } & {
-        method: "POST" | "GET";
+        method: "GET" | "POST";
     } & {
         query?: {
             code?: string | undefined;
@@ -389,7 +389,7 @@ declare const callbackOAuth: {
         response: void;
     } : void>;
     options: {
-        method: ("POST" | "GET")[];
+        method: ("GET" | "POST")[];
         body: z.ZodOptional<z.ZodObject<{
             code: z.ZodOptional<z.ZodString>;
             error: z.ZodOptional<z.ZodString>;
